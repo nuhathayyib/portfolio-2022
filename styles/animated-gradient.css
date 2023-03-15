@@ -1,6 +1,5 @@
 :root {
-    --gradient: linear-gradient(to left bottom, #041632, #3b3c5c, #706889, #a897b8, #e3cae9);
-}
+    --gradient: linear-gradient(to right bottom, #071c3e, #003f60, #0d637c, #388992, #68afa5, #77bdb4, #86ccc4, #95dad4, #90d1e0, #9bc6e3, #adb9dc, #bcadcc);}
 
 .gradient-animation {
     background-size: 600%;
