@@ -1,5 +1,5 @@
 :root {
-    --gradient: linear-gradient(to left bottom, #0d07c7, #3732ce, #524fd3, #6a69d6, #8182d8);
+    --gradient: background-image: linear-gradient(to left bottom, #041632, #3b3c5c, #706889, #a897b8, #e3cae9);
 }
 
 .gradient-animation {
