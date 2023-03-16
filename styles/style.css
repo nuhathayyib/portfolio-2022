@@ -132,7 +132,7 @@ img, svg {
 
 h1 {
   font-size: 2rem;
-  font-family: var(--heading-typeface);
+  font-family: url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap');
   margin-bottom: 1rem;
   color: var(--baby-powder);
 }
