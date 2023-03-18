@@ -69,25 +69,25 @@ html {
 */
 
 :root {
-  --primary-text-color: #222;
+  --primary-text-color: #171752;
   --holding-page-title-color: #ebedf0;
   --accent-color: #5200FF;
   --overlay-color: #5200FF;
-  --hyperlink-color: #ffffff;
+  --hyperlink-color: #171752;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: 'Montserrat', sans-serif;
   --heading-typeface: 'Merriweather', serif;
   --project-title-typeface: 'Montserrat', sans-serif;
-  --project-title-color: #723850;
+  --project-title-color: #171752;
   --heart-color: darkred;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
-  --baby-powder: #fefefa;
+  --baby-powder: #171752;
   --alice-blue: #f0f8ff;
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
-  --background-color: #f5f5f5;
+  --background-color: #fcfaf7;
   --alt-background-color: black;
   --text-selection-background-color: #555;
 }
@@ -100,6 +100,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image:var(--off-white);
 }
 
 /* The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text). */
@@ -387,7 +388,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: #000000;
+  background: #fcfaf7;
   padding: 1rem;
   flex: 1;
 }
@@ -856,8 +857,14 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
 /* X-Large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {.grid {
+  grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+  grid-gap: 1rem;background: #5200FF;
+}}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {.grid {
+  grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+  grid-gap: 1rem;background: rgb(255, 255, 255);
+}}
