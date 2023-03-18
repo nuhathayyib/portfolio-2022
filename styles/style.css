@@ -429,7 +429,7 @@ p {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 100vh;
-  background: #000000;
+  background:var(--background-color);
   padding: 1rem;
 }
 
