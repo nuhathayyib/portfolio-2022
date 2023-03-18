@@ -859,7 +859,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
 @media (min-width: 1200px) {.grid {
   grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
-  grid-gap: 1rem;background: #5200FF;
+  grid-gap: 1rem;background: #ffffff;
 }}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
